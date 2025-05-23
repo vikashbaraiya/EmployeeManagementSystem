@@ -1,0 +1,186 @@
+
+.container1
+{
+    background: linear-gradient(120deg,#b9c4d2, #d6f6f7);
+    width: 550px;
+    max-height: fit-content;
+    padding: 10px;
+    margin: 10px auto 0;
+    border-top: 10px solid #1c375b;
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.6);
+    border-bottom: 4px solid #6f8197;
+    margin-top: 20px;
+    
+}
+.container h2
+{
+    font-size: 30px;
+    line-height: 24px;
+    padding: 15px;
+    text-align: center;
+    
+}
+.input-name
+{
+    width: 90%;
+    position: relative;
+    margin: 10px auto;
+    margin-bottom: 3px;
+    margin-top:5px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+
+}
+.input-name1{
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+    margin-bottom: 3px;
+    margin-top:15px;
+    padding-right: 0px;
+}
+.input-name1 label{
+    padding: 20px;
+}
+
+.icon
+{
+    color: #1c375b;
+    position:absolute;
+     font-size: 24px;
+     border-right: 1px solid #6f8197; 
+     margin:8px 6px ;
+    padding-right:4px;
+    
+    
+}
+.name
+{
+    width: 100%;
+    padding: 8px 0 8px 40px;
+}
+.input-name span
+{
+    margin-left: 35px;
+}
+.text-name
+{
+    width: 95%;
+    padding: 8px 0 8px 40px;
+}
+.text-name, .name
+{
+    border: 1px solid rgba(142, 175, 175, 0.63);
+    outline: none;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+
+}
+.text-name:hover, .name:hover
+{
+    background-color: #fafafa;
+}
+.text-name:focus, .name:focus
+{
+    border: 1px solid #1c375b;
+}
+.radio-button
+{
+    margin-right: 5px;
+    accent-color: #1c375b;
+
+}
+
+.button {
+    padding: 7PX 15PX;
+    color: #534c5b;
+    font-size: 13PX;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5S;
+    letter-spacing: 4PX;
+    border:1px solid #1c375b;
+    border-radius: 0px;
+    margin-left: 25%;
+    width:100px;
+    height: 40px;
+    margin-left:150px ;
+  }
+  .button:hover {
+    background: #1c375b;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #1c375b , 0 0 25px  #1c375b, 0 0 50px #1c375b, 0 0 100px #1c375b;
+  }
+
+  .button-1 {
+    padding: 7PX 15PX;
+    color: #534c5b;
+    font-size: 13PX;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5S;
+    letter-spacing: 4PX;
+    border:1px solid #6f8197;
+    border-radius: 0px;
+    margin-right: 150px;
+    width:100px;
+    height: 40px;
+    text-decoration: none;
+    
+  }
+  .button-1:hover {
+    background: #6f8197;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #6f8197 , 0 0 25px  #6f8197, 0 0 50px #6f8197, 0 0 100px #6f8197;
+    text-decoration: none;
+  }
+.input-button
+{
+    text-align: center;
+    display: table;
+    
+   
+}
+.role{
+    display: inline-block;
+    width: 95%;
+    height: 35px;
+    padding: 0px 15px;
+}
+.role:hover{
+    background-color: #fafafa;
+}
+.role:focus{
+    border: 1px solid aqua;
+}
+.name1
+{
+    width: 100%;
+    padding: 8px 0 8px 40px;
+}
+@media (max-width: 480px)
+{
+    .container
+    {
+        width: 100%;
+    }
+    .input-name
+    {
+        margin-bottom: 5px;
+    }
+    .name
+    {
+        width: 100%;
+        padding: 8px 0 8px 40px;
+        margin-bottom: 1px;
+    }
+    .input-name span
+    {
+        padding: 0;
+        margin: 0;
+    }
+}

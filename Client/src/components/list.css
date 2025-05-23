@@ -1,0 +1,25 @@
+.table-container{
+    margin-top: -200px;
+    height: 600px;
+    width: 1100px;
+    margin-left: -200px;
+}
+
+
+.formButton{
+    
+    /* color: red; */
+    border: none;
+    background: transparent;
+
+}
+.fa-trash-o{
+    color: rgb(246, 17, 17);
+    font-size: 20px;
+}
+.fa-pencil-square-o{
+    color: rgb(48, 250, 125);
+    font-size: 20px;
+}
+
+

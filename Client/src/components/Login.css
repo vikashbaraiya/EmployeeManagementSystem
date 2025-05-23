@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg,#788ca5, #f5f5f5); 
+    height: 100vh;
+    overflow: hidden;
+    margin-top: -20px;
+  }
+
+
+  .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: linear-gradient(120deg,#f9f9f9, #788ca5);
+    border-radius: 0px;
+    box-shadow: 0px 15px 25px rgba(7, 7, 7, 0.7);
+    border-bottom: 10px solid #1c375b;
+    margin-top: 50pxpx;
+    height: 450px;
+  
+    
+  }
+  .center h1{
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #1c375b;
+  }
+  .center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+  form .txt_field{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+  }
+  .txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  .txt_field label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+  }
+  .txt_field span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #2691d9;
+    transition: .5s;
+  }
+  .txt_field input:focus ~ label,
+  .txt_field input:valid ~ label{
+    top: -5px;
+    color: #1f8cd4;
+  }
+  .txt_field input:focus ~ span::before,
+  .txt_field input:valid ~ span::before{
+    width: 100%;
+  }
+  .pass{
+    margin: -5px 0 20px 5px;
+    color: #a6a6a6;
+    cursor: pointer;
+  }
+  .pass:hover{
+    text-decoration: underline;
+  }
+  input[type="submit"]{
+    
+    padding: 10PX 20PX;
+    color: #534c5b;
+    font-size: 16PX;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5S;
+    letter-spacing: 4PX;
+    border:1px solid #1c375b;
+    border-radius: 0px;
+    margin-left: 0%;
+    width:150px;
+    height: 40px;
+  }
+  input[type="submit"]:hover{
+   
+    background: #1c375b;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #1c375b , 0 0 25px  #1c375b, 0 0 50px #1c375b, 0 0 100px #1c375b;
+   
+   
+  }
+  .signup_link{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+  }
+  .signup_link a{
+    color: #1c375b;
+    text-decoration: none;
+  }
+  .signup_link a:hover{
+    text-decoration: underline;
+  }  
